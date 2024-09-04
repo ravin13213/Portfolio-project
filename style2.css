@@ -1,0 +1,260 @@
+
+/* Navigation section  */
+.container{
+    background-color: aqua;
+position: fixed ;
+top: 0px; width: 100vw;
+z-index: 10;
+
+}
+.cont{
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+.nav
+{
+    display: flex;
+    list-style-type: none;
+}
+.vertical{
+    border-left: solid orange 2px;
+    margin: 10px;
+}
+.name{ padding-top: 15px;}
+
+/* hero section  */
+.hero{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 10vw;
+    margin-bottom: 30px;
+}
+.box{
+    background-color: orangered;
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+
+    padding:100px 100px;
+    position: relative;
+}
+.box img{position: absolute;
+    right: 10%;
+height: 450px;
+bottom: -5%;
+}
+
+ /* dark mode  */
+   body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hide the checkbox */
+#dark-mode-toggle {
+    display: none;
+}
+
+label[for="dark-mode-toggle"] {
+    position: fixed;
+    top: 60px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+#dark-mode-toggle:checked ~ body,
+#dark-mode-toggle:checked ~ label,
+#dark-mode-toggle:checked ~ div,
+#dark-mode-toggle:checked ~ section
+{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/* Banner section */
+.banner{
+    display: flex;
+    justify-content: space-around;
+    border: solid black;
+    border-radius: 50px;
+    padding: 70px;
+    width: 70vw;
+    margin: auto;
+}
+.banner  span{
+    border-left: solid 3px orangered;
+}
+
+/* skill section  */
+h2{
+    position: relative;
+    left: 46vw;
+}
+.skill{
+    display: flex;
+    justify-content: space-around;
+
+} 
+.skilh i{
+    color: blue;
+    font-size: xx-large;
+
+}
+.skilc i{
+    color: orange;
+    font-size: xx-large;
+}
+.skilj i{
+    color: green;
+    font-size: xx-large;
+}
+.skilg i{
+    font-size: xx-large;
+}
+.skilf i{
+    font-size: xx-large;
+}
+
+/* project section  */
+.p{
+    width: 30vw;
+    margin: auto;
+    margin-top: 80px;
+    border: solid 1px;    
+    box-shadow: 10px 20px 10px;
+   
+
+}
+.q{
+    text-align: center;
+    padding: auto;
+    margin-left: 20px;
+
+}
+.intro img{
+    height: 250px;
+    position: absolute;
+    right: 10px;
+    bottom: -10px;
+}
+
+
+.intro{
+    background-color: orangered;
+    padding-top: 40px;  
+    height: 180px;
+    position: relative;
+
+    padding-left: 50px;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+ 
+/* about me section */
+.about{
+    background-color: rgba(172, 255, 47, 0.484);
+display: flex;
+
+}
+.topic{
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-size: xx-large;
+}
+.about img{
+    height: 350px;
+    
+}
+
+/* contact */
+.contact h2{
+    text-decoration: underline red;
+    
+  
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    margin: auto;
+}
+.contact i{
+    font-size: xx-large;
+    
+}
+.or{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.or input{
+    background: #4b4242;
+    height: 50px;
+    border-radius: 20px;
+    
+}
+.or i{
+    position: relative;
+    right:40px ;
+    color: red;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    
+color: white;
+}
+footer span{
+    position: relative;
+    left: 43%;
+    color: white;
+}
+footer{
+    background: #000;
+}
+
+@media only screen and (max-width:600px)
+{.box{
+    background-color: orangered;
+    width: 60vw;
+    height: 2ew325vh;
+    margin: auto;
+    margin-top: 30vh;
+    padding:100px 100px;
+    display: flex;
+    justify-content: space-around;
+
+    position: relative;
+}
+.box img{position: absolute;
+    width: 100vw;
+    right: 10%;
+height: 450px;
+top: -5%;}
+.project{
+    display: flex;
+    flex-direction: column;
+width: 100vw;
+}
+.p{
+    width: 100vw;
+}
+
+
+}

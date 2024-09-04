@@ -1,0 +1,103 @@
+/* * navigation sectionn */
+
+.container{
+    background: rgb(22, 173, 173);
+    position: fixed;
+    
+
+}
+.name{ display: flex;
+justify-content: space-around;
+padding-top: 10px;
+}
+.cont{width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.nav{display: flex;
+justify-content: space-between;}
+.vertical{
+    border-left: 2px solid orange;
+    height: 20px;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+}
+/* hero section  */
+.hero{
+    height: 90vh;
+
+}
+.box{    background-color: orangered;
+    height: 60vh;
+    width: 70vw;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    
+}
+.intro{
+    
+    /* border: solid rgb(43, 210, 14) 10px; */
+   padding-left: 10%;
+    padding-top: 10%;
+    padding-right: 40%;
+    width: 50vw;
+
+}
+.title{
+    letter-spacing: 2px;
+}
+.box img{
+ 
+    position: absolute;
+    height: 450px;
+    right: 50px;
+    bottom: -30px;
+}
+
+/* Banner section  */
+
+
+.banner{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    border: solid;
+    border-radius: 30px;justify-content: space-around;
+    padding: 30px;
+
+}
+
+.banner>span{
+    border-right: solid orange 3px;
+}
+h2{
+    position: relative;
+    left: 47%;
+}
+.skill{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* projects section */
+/* .project{
+    display: grid;
+    grid-template-columns: auto auto; 
+    padding: 10px;
+    height: 200px;
+}
+.intro{
+    background-color: orangered;
+    
+}
+.intro img{
+height: 189px;
+}
+.p{
+    width: 30vw;
+} */
